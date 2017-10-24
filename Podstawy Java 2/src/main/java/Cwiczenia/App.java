@@ -8,6 +8,6 @@ public class App {
     public static void main(String[] args) throws FileNotFoundException {
         String path = "D:/baza.csv";
         List<Map<String, Object>> wierszePliku = Tool.wczytajPlik(path);
-        System.out.println(wierszePliku.size());
+        System.out.println(wierszePliku.get(1));
     }
 }

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Podstawy Java I" />
+        <module name="pdst" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Podstawy Java I" target="1.5" />
+      <module name="pdst" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

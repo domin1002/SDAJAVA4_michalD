@@ -30,7 +30,7 @@ public class SortowaniePrzezWymiane implements Sortowanie {
 
                 iloscOperacji++;
             }
-
+            //zamieniamy miejscami minimum i pierwsza liczbe w tablicy, od ktorej zaczela sie iteracja
             tablicaElementow[index] = tablicaElementow[i];
             tablicaElementow[i] = min;
         }
