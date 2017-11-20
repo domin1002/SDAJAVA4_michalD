@@ -1,8 +1,12 @@
 package pl.sda.java4.triangles;
 
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Assert;
 import org.junit.*;
+import org.junit.runner.RunWith;
 
+@RunWith(JUnitParamsRunner.class)
 public class ParsingTest {
 
     private Parser sut;
@@ -11,6 +15,23 @@ public class ParsingTest {
     public void setup() {
         sut = new Parser();
     }
+
+    @Test
+    @Parameters
+    public void properInput(String input, int[] expectedOutput) {
+        Assert.assertArrayEquals(expectedOutput, sut.parseTriple(input));
+    }
+
+    private Object parametersForProperInput() {
+        return new Object[] {
+                new Object[]{"3 4 5", new int []{3,4,5}},
+                new Object[]{"  3      4  \t\t       5 ", new int []{3,4,5}},
+                new Object[]{"100 10000 100", new int []{100, 10000, 100}},
+                new Object[]{"-1 -1 -1", new int []{-1, -1, -1}}
+
+        };
+    }
+
 
     // a b c
     @Test
