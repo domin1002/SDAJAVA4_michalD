@@ -5,23 +5,19 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-        //int number = 3;
-        List<Signal> list = new ArrayList<>();
-       // String temp = Integer.toBinaryString(number);
-        String temp = "101";
-        int length = temp.length(); // 2
-        int[] tab = new int[5]; //4
-                    //4           i=4>2
-        for (int i = tab.length-1; i > temp.length(); i--) {
-            //tab[4] = temp.substring(1, 2)
-            tab[i]
+        int number = 6;
+        getClassification(number);
 
-        if (tab[4] == 1) list.add(Signal.WINK);
-        if (tab[3] == 1) list.add(Signal.DOUBLE_BLINK);
-        if (tab[2] == 1) list.add(Signal.CLOSE_YOUR_EYES);
-        if (tab[1] == 1) list.add(Signal.JUMP);
-        if (tab[0] == 1) Collections.reverse(list);
 
-        System.out.println(list);
+    }
+
+    public static void getClassification( int number) {
+        int sum = 0;
+        for (int i = 1; i < number; i++) {
+            if (number % i == 0) sum += i;
+        }
+        if (number == sum) System.out.println("Perfect "+sum);
+        else if (number < sum) System.out.println("Abundant "+sum);
+        else System.out.println("Defficent "+sum);
     }
 }
