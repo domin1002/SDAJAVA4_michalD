@@ -19,7 +19,7 @@ class ProteinTranslator {
             if (temp.equals("UGG")) set.add("Tryptophan");
             if (temp.equals("UAA") || temp.equals("UAG") || temp.equals("UGA")) break;
         }
-        
+
         return new LinkedList<>(set);
     }
 }
