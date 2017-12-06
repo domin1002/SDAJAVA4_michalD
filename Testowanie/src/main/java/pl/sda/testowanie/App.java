@@ -1,16 +1,27 @@
 package pl.sda.testowanie;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class App {
 
     public static void main(String[] args) {
-        String str = "Adncid--- cv s";
-        String temp = str.replaceAll("[\\s\\-]", "");
-        System.out.println(temp);
+        String str = "ABC\n" +
+                     "123\n"+
+                     "zx";
+
+        StringBuilder sb = new StringBuilder();
+        String[] tab = str.split("\n");
+        int length = tab[0].length();
+        for (int i = 0; i<tab.length; i++) {
+            if(length>tab[i].length()) tab[i]+=(" ");
+        }
+        int index = tab[0].length();
+        for (int i = 0; i < index; i++) {
+            for (int j = 0; j < tab.length; j++) {
+                System.out.print(tab[j].charAt(i));
+            }
+            System.out.print("\n");
+        }
     }
 }
 
