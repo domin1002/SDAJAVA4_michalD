@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dziedziczenie1/Dziedziczenie1.iml" filepath="$PROJECT_DIR$/Dziedziczenie1/Dziedziczenie1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterfaceDivisor/InterfaceDivisor.iml" filepath="$PROJECT_DIR$/InterfaceDivisor/InterfaceDivisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaArrayList/JavaArrayList.iml" filepath="$PROJECT_DIR$/JavaArrayList/JavaArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaGenerics/JavaGenerics.iml" filepath="$PROJECT_DIR$/JavaGenerics/JavaGenerics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLinkedList/JavaLinkedList.iml" filepath="$PROJECT_DIR$/JavaLinkedList/JavaLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSet/JavaSet.iml" filepath="$PROJECT_DIR$/JavaSet/JavaSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodWithSuper/MethodWithSuper.iml" filepath="$PROJECT_DIR$/MethodWithSuper/MethodWithSuper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBook/MyBook.iml" filepath="$PROJECT_DIR$/MyBook/MyBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TopStudentListMap/TopStudentListMap/TopStudent/TopStudent.iml" filepath="$PROJECT_DIR$/TopStudentListMap/TopStudentListMap/TopStudent/TopStudent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TopStudentArrays/TopStudentArrays.iml" filepath="$PROJECT_DIR$/TopStudentArrays/TopStudentArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zajęcia7/Zajęcia7.iml" filepath="$PROJECT_DIR$/Zajęcia7/Zajęcia7.iml" />
+    </modules>
+  </component>
+</project>
