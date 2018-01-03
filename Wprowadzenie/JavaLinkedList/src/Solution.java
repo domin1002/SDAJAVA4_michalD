@@ -31,7 +31,6 @@ public class Solution {
 
 	static Node insertLast(Node head, int data) {
 		
-		//usu� linijk� poni�ej i dodaj w�asn� implementacj�
 		Node node = head;
 		while(node.next != null){
 			node = node.next;
